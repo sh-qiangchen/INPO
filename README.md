@@ -24,4 +24,3 @@ bash run.sh
 ## Hyper-parameter Setting
 For easy reproduction, we provide detailed hyper-parameter setting.
 
-![](./figs/settings.png)
