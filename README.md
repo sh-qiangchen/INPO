@@ -1,5 +1,5 @@
 # INPO
-A PyTorch implementation of "[Stable Fair Graph Representation Learning with Lipschitz Constraint](https://openreview.net/pdf?id=oJQWvsStNh)"
+A PyTorch implementation of "**Graph Unlearning meets Influence-aware Negative Preference Optimization**".
 
 ## Overview
 **INPO** is a PO-based graph unlearning method to improving the robustness of the model utility to the unlearning process. **The core idea behind INPO is to amplify the influence of unlearned edges and mitigate the tight topological coupling between the forget set and the retain set**, reducing impact on model utility when unlearning specific edges.
@@ -22,5 +22,6 @@ bash run.sh
 ```
 
 ## Hyper-parameter Setting
-For easy reproduction, we provide detailed hyper-parameter setting.
+For easy reproduction, we provide detailed hyper-parameter setting. Implementation of INPO-S based on the original source code(https://github.com/mims-harvard/GNNDelete) , and we provide file *INPO-S.py* in our code.
 
+![](./figs/settings.png)
