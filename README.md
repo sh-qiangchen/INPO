@@ -24,4 +24,4 @@ bash run.sh
 ## Hyper-parameter Setting
 For easy reproduction, we provide detailed hyper-parameter setting.
 
-![](C:\Users\86198\Desktop\TrustworthyGNN\Code\INPO\figs\settings.png)
+![](.\figs\settings.png)
